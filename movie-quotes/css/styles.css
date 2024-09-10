@@ -1,0 +1,32 @@
+p{
+    text-align:center;
+    line-height: 1.25;
+    font-size: 12pt;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+body {
+    background-color: lightgrey;
+    color:black
+}
+
+.line {
+    border-bottom: 2px solid #888;
+  }
+
+h1 {
+    text-align: center;
+    color: darkred;
+    font-size: 45px;
+    margin: 0px;
+}
+
+h2 {
+    text-align: center;
+    color: darkred;
+    font-size: 25px;
+    margin: 0px;
+}
+
+

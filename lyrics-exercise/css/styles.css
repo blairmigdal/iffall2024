@@ -1,0 +1,59 @@
+p {
+    text-align:center;
+    line-height: 1;
+    font-size: 12pt;
+    padding-right: 60px;
+    padding-left: 60px;
+    font-style: bold;
+    color: rgb(203, 203, 203);
+    font-style: italic;
+}
+
+
+.box {
+    --mask:
+      radial-gradient(38.99px at 50% calc(100% + 18px),#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) calc(50% - 60px) calc(50% - 19px + .5px)/120px 38px repeat-x,
+      radial-gradient(38.99px at 50% -18px,#0000 calc(99% - 8px),#000 calc(101% - 8px) 99%,#0000 101%) 50% calc(50% + 19px)/120px 38px repeat-x;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+        color: white;
+  }
+
+h1 {
+    text-align: center;
+    color: rgb(203, 245, 184);
+    font-size: 40pt;
+    margin: 0px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(197, 225, 149);
+    margin: 0px;
+    margin-top: 10px;
+}
+
+body {
+    background-image: url('file:///Users/blairmigdal/Downloads/AdobeStock_101736611.jpeg'); 
+    margin-bottom: 30pt;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.63); 
+    z-index: -1;
+}
+
+.line {
+    border-bottom: 2px solid #b1b1b1;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
