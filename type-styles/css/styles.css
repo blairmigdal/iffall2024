@@ -2,6 +2,7 @@ html {
     color: rgb(55, 55, 133);
     font-size: 15pt;
     font-family: 'Raleway';
+    background-color: rgb(241, 244, 251);
 }
 
 body{
@@ -12,17 +13,26 @@ section{
     color: black;
 }
 
+.line {
+    border-bottom: 1px solid grey;
+    width: 80%;
+    text-align: left;
+    margin-top: 30pt;
+  }
+
 h1{
     font-size: 70pt;
     font-weight: 900;
-    margin-bottom: -20pt;
+    margin-bottom: -12pt;
+    margin-top: -30pt;
 }
 
 h3{
     font-size: 20pt;
     color: rgb(61, 61, 67);
     font-weight: 500;
-    margin-bottom: -15pt;
+    margin-bottom: -5pt;
+    line-height: 0.9em;
 }
 
 p{
