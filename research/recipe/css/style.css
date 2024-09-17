@@ -1,0 +1,62 @@
+html {
+    font-family: 'Montserrat';
+}
+
+h1{
+    font-size: 50pt;
+    margin-bottom: -15pt;
+    margin-top: -80pt;
+    font-weight: 800;
+    color:rgb(71, 26, 7);
+}
+
+body{
+    margin: 15%;
+    background-color: rgb(253, 249, 243);
+}
+
+h2{
+    font-size: 25pt;
+    font-weight: 700;
+    color:rgb(107, 41, 13);
+}
+
+h3{
+    font-size: 15pt;
+    font-weight: 600;
+    color:rgb(104, 34, 4);
+}
+
+h4{
+    font-style: italic;
+    margin-bottom: -5pt;
+    color:rgb(176, 67, 20);
+}
+
+a{
+    color:rgb(176, 67, 20);
+}
+
+.fa{
+    font-size: 0.9em;
+    color: rgb(71, 26, 7);
+}
+
+aside{
+    font-size: 10pt;
+    color: grey;
+    margin-bottom: 20pt;
+}
+
+p{
+    margin-left: 2em;
+    line-height: 1.3rem;
+}
+
+h5{
+    font-style: normal;
+    margin: normal;
+    font-weight: normal;
+    line-height: 1.4rem;
+    font-size: 12pt;
+}

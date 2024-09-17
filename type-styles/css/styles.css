@@ -2,7 +2,7 @@ html {
     color: rgb(55, 55, 133);
     font-size: 15pt;
     font-family: 'Raleway';
-    background-color: rgb(241, 244, 251);
+    background-color: rgb(249, 249, 251);
 }
 
 body{
@@ -51,7 +51,7 @@ h2{
           <!-- Set display: block; on cite elements. --> */
 
 aside{
-    font-size: 8pt;
+    font-size: 9pt;
     color: grey;
     display: block;
 }
