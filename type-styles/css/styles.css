@@ -1,0 +1,97 @@
+html {
+    color: rgb(55, 55, 133);
+    font-size: 15pt;
+    font-family: 'Raleway';
+}
+
+body{
+    margin: 8%;
+}
+
+section{
+    color: black;
+}
+
+h1{
+    font-size: 70pt;
+    font-weight: 900;
+    margin-bottom: -20pt;
+}
+
+h3{
+    font-size: 20pt;
+    color: rgb(61, 61, 67);
+    font-weight: 500;
+    margin-bottom: -15pt;
+}
+
+p{
+    line-height: 1.2em;
+}
+
+h2{
+    color: rgb(109, 109, 174);
+    margin-bottom: 10pt;
+    margin-top: 30pt;
+    font-size: 30pt;
+}
+
+/* <!-- Set text-align: center; on aside elements. --> */
+          /* <!-- Set text-align: right; on cite elements. -->
+          <!-- Set display: block; on cite elements. --> */
+
+aside{
+    font-size: 8pt;
+    color: grey;
+    display: block;
+}
+
+.bold {
+    font-weight: 800;
+    font-style: normal;
+}
+
+.thin{
+    font-weight: 50;
+    font-style: normal;
+}
+
+.style{
+    font-style: italic;
+}
+
+.wide{
+    letter-spacing: 1em;
+    font-style: normal;
+}
+
+.tight{
+    letter-spacing: -0.09em;
+    font-style: normal;
+}
+
+.uppercase{
+    text-transform: capitalize;
+    font-style: normal;
+}
+
+.lowercase{
+    text-transform: lowercase;
+    font-style: normal;
+}
+
+.allcaps{
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.underline{
+    text-decoration: underline; 
+    font-style: normal;
+}
+
+.strikethrough{
+    text-decoration: line-through;
+    font-style: normal;
+}
+
