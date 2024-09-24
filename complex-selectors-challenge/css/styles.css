@@ -28,20 +28,20 @@ h1, h2 {
     width:100%;
 }
 
-.section.cast{
+.cast li {
     width: 25%;
-    /* this is not right */
 }
 
 .shows > li {
     border-top: 1px solid black;
 }
 
-.selected{
+.selected a {
     font-weight: bold;
     color: black;
-    /* why is it not black */
 }
+
+
 
 div{
     font-size: 0.8rem;
