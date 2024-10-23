@@ -13,6 +13,11 @@ body {
     margin-left: 0;
 }
 
+.stars li{
+    width: 2px;
+    float: left;
+}
+
 
 .section1 {
     background-image: url(https://thetablediaries.com/wp-content/uploads/2021/02/lava-cake-9-copy.jpg);
@@ -43,7 +48,7 @@ h1 {
 }
 
 a {
-    color: rgb(52, 19, 11);
+    color: rgb(145, 85, 70);
 }
 
 h2 {
@@ -74,11 +79,7 @@ h6{
     margin-left: 3rem;
     margin-bottom: 1rem;
     float: left;
-
 }
-
-
-
 
 h6 b {
     font-weight: 700;
@@ -114,7 +115,6 @@ p {
 }
 
 
-
 li {
     display: inline-block;
     margin-left: 2rem;
@@ -131,6 +131,7 @@ html { font-size: 12pt; }
         margin-left: 0.8rem;
     margin-right: 0.8rem;
     padding-left: 2rem;
+    padding-bottom: 1rem;
     }
      h1 { font-size: 40pt; }
      h4 { font-size: 2rem; font-weight: 700;}
@@ -139,7 +140,7 @@ html { font-size: 12pt; }
     }
 
     @media (min-width: 640px) {
-        p { font-size: 12pt;  padding-left: 0rem; margin-left: 2rem;}
+        p { font-size: 12pt;  padding-left: 0rem; margin-left: 2rem; padding-bottom: 0.5rem; } 
         h4 { font-size: 1.6rem; }
         h1 { font-size: 50pt; }
         li {height: 500;}
