@@ -322,23 +322,24 @@ a#btn_color-run {
     font-style: normal;
 }
 
-a#btn_color-run .the:hover{
+a#btn_color-run:hover .the{
     color:#efe26d; 
     background-color: white;
  }
 
-a#btn_color-run .color:hover{
+a#btn_color-run:hover .color{
     color: #58a5d8;
     background-color: white;
 }
 
-a#btn_color-run .run:hover{
+a#btn_color-run:hover .run{
     color: #e995e8;
     background-color: white;
 }
 
 a#btn_color-run:hover {
     background-color: white;
+    background-image: none;
 }
 
 
@@ -445,19 +446,17 @@ a#btn_lyft {
     color: rgb(82, 29, 82);
     font-size: 50px;
     text-decoration: none;
+    transition: all 1s;
 }
 
 a#btn_lyft:hover {
     font-family: "adelphi-pe-variable", sans-serif;
     font-variation-settings: "slnt" 0, "opsz" 6, "wght" 100;
     font-size: 50px;
-    color: rgb(82, 29, 82);
     text-decoration: none;
-    transition: all .2s;
     color: white;
     background-color: rgb(82, 29, 82);
     border: rgb(255, 255, 255);
-    transition: all .2s;
 }
 
 a#btn_lyft:active {
