@@ -34,10 +34,11 @@ a{
 }
 
 html{
-    background-image: url("initial-build/coralinetunnel.jpgg");
+    background-image: url("../coralinetunnel.jpg");
     width: 100%;
     background-size: cover;
-    background-position: center 20%;
+    background-position: center 39%;
+
 }
 
 .using-flex{
