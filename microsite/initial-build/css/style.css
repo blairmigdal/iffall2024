@@ -20,7 +20,6 @@ h1 {
 .tunnel {
     padding-top: 5rem;
 }
-
 h2 {
     font-family: "journal", sans-serif;
     font-weight: 400;
@@ -35,11 +34,10 @@ a{
 }
 
 html{
-    background-image: url(file:///Users/blairmigdal/Desktop/WashU/Junior%20Year/Interaction%20Foundations/publish/microsite/laika%20images/coralinetunnel.jpg);
+    background-image: url("initial-build/coralinetunnel.jpgg");
     width: 100%;
     background-size: cover;
     background-position: center 20%;
-
 }
 
 .using-flex{
@@ -107,6 +105,7 @@ h4 {
     padding: 0 0 0 0;
     margin-bottom: 3px;
     padding-left: 9rem;
+    list-style: none;
 }
 
 .using-grid li img {
@@ -116,6 +115,7 @@ h4 {
     margin: 0;
     padding-bottom: 19px;
     margin-right: 1rem;
+    list-style: none;
   
 }
 
@@ -123,6 +123,7 @@ h4 {
     margin-left: 20px; 
     margin-right: 20px;
     float: right;
+    list-style: none;
 }
 
 .backgroundkubo {
