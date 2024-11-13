@@ -1,0 +1,166 @@
+body {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    margin-top: 0;
+}
+
+
+h1 {
+    font-family: "ff-folk", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 80pt;
+    text-align: center;
+    color: white;
+    margin: 0;
+    line-height: 7rem;
+}
+
+.tunnel {
+    padding-top: 5rem;
+}
+
+h2 {
+    font-family: "journal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 20pt;
+    color: rgb(255, 253, 132);
+}
+
+a{    
+    text-decoration: none;
+}
+
+html{
+    background-image: url(file:///Users/blairmigdal/Desktop/WashU/Junior%20Year/Interaction%20Foundations/publish/microsite/laika%20images/coralinetunnel.jpg);
+    width: 100%;
+    background-size: cover;
+    background-position: center 20%;
+
+}
+
+.using-flex{
+    display: flex;
+    text-wrap: wrap;
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 100%;
+    margin: 0px;
+    margin: 0;
+    padding-top: 0px;
+    padding-bottom:0px;
+    list-style: none;
+}
+
+.using-flex li{
+    width: 20%;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+    text-wrap: wrap;
+    box-sizing: border-box;
+}
+
+h3 {
+    color: white;
+    font-family: "journal", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50pt;
+    text-align: left;
+    margin-left: 3rem;
+}
+
+p {
+    color: white;
+    font-family: "journal", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15pt;
+    text-align: left;
+    margin-right: 8rem;
+    margin-left: 8rem;
+    line-height: 2rem;
+    margin-top: 0;
+    padding-right: 10rem;
+}
+
+h4 {
+    color: white;
+    font-family: "journal", sans-serif;
+    font-weight: 450;
+    font-style: italic;
+    font-size: 25pt;
+    text-align: left;
+    margin-left: 6rem;
+}
+
+
+.using-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    padding: 0 0 0 0;
+    margin-bottom: 3px;
+    padding-left: 9rem;
+}
+
+.using-grid li img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0;
+    padding-bottom: 19px;
+    margin-right: 1rem;
+  
+}
+
+.using-grid li div {
+    margin-left: 20px; 
+    margin-right: 20px;
+    float: right;
+}
+
+.backgroundkubo {
+    background-color: #967c8f;
+    width: 100%;
+    padding-bottom: 20rem; 
+    background-size: cover;
+    background-position: center 40%;
+}
+
+.backgroundboxtrolls {
+    background-color: #4e3418;
+    width: 100%;
+    padding-bottom: 20rem; 
+    background-size: cover;
+    background-position: center 40%;
+}
+
+.backgroundparanorman {
+    background-color: #08300b;
+    width: 100%;
+    padding-bottom: 20rem; 
+    background-size: cover;
+    background-position: center 40%;
+}
+
+.backgroundmissinglink {
+    background-color: #36549b;
+    width: 100%;
+    padding-bottom: 20rem; 
+    background-size: cover;
+    background-position: center 40%;
+}
+
+.backgroundcoraline {
+    background-color: #230b45;
+    width: 100%;
+    padding-bottom: 20rem; 
+    background-size: cover;
+    background-position: center 40%;
+}
