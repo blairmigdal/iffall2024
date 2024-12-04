@@ -1,5 +1,9 @@
 html {
     font-family: 'Montserrat';
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin: 0;
+    width: 100%;
 }
 
 
@@ -7,33 +11,37 @@ body {
     background-color: rgb(247, 225, 217);
     text-align: left;
     color: rgb(52, 19, 11);
-    margin-top: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: 0;
+    margin: 0;
+    padding-bottom: 3rem;
 }
 
 .stars li{
-    width: 2px;
+    width: 2rem;
     float: left;
+}
+
+p.equipment {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 
 .section1 {
     background-image: url(https://thetablediaries.com/wp-content/uploads/2021/02/lava-cake-9-copy.jpg);
-    width: 100%;
     padding-top: 6rem;
+    width: 100%;
     padding-bottom: 6rem; 
     background-size: cover 90%;
     background-position: center;
     margin-block-start: 0;
     margin-block-end: 0;
     margin-bottom: 2rem;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 hr {
     color: rgb(18, 2, 0);
-    width: 100%;
     margin-top: 2rem;
     margin-bottom: 1rem;
 }
@@ -41,9 +49,6 @@ hr {
 h1 {
     font-size: 5rem;
     font-weight: 800;
-    width: 100%;
-    margin: 1rem;
-    margin-left: 1rem;
     color:  rgb(255, 255, 255);
 }
 
@@ -58,15 +63,12 @@ h2 {
 h3 {
     font-size: 2.5rem;
     font-weight: 700;
-    margin-left: 2rem;
     margin-top: 2rem;
-
 }
 
 h4 {
     font-size: 1.3rem;
     font-weight: 600;
-    margin-left: 2rem;
     margin-bottom: 0.5rem;
 }
 
@@ -76,7 +78,6 @@ h6{
     width: 20ch;
     line-height: 2rem;
     margin-top: 0.5rem;
-    margin-left: 3rem;
     margin-bottom: 1rem;
     float: left;
 }
@@ -86,7 +87,7 @@ h6 b {
 }
 
 .mainphoto ol {
-    width: 500px;
+    width: 100%;
 }
 
 .stars li{
@@ -104,49 +105,155 @@ b{
 
 h5 {
     font-weight: 400;
-    margin-left: 2rem;
 }
 
 p {
     line-height: 1.3rem;
-    margin-left: 2rem;
-    margin-right: 1rem;
-    margin-left: 5rem;
 }
 
 
 li {
     display: inline-block;
-    margin-left: 2rem;
-    margin-right: 1rem;
 
 }
 
-html { font-size: 12pt; }
 
-  @media (max-width: 640px) {
-    p { font-size: 15pt; 
-        line-height: 2rem; 
-        max-width: 80ch;
-        margin-left: 0.8rem;
-    margin-right: 0.8rem;
-    padding-left: 2rem;
+  @media (max-width: 700px) {
+    p { 
+    font-size: 13pt; 
+    line-height: 2rem; 
+    max-width: 80ch;
+    padding-left: 3rem;
+    padding-right: 3rem;
     padding-bottom: 1rem;
     }
-     h1 { font-size: 40pt; }
-     h4 { font-size: 2rem; font-weight: 700;}
-     li {height: 200;}
-     .equipment li {margin-top: 5rem;}
+
+
+    img.stars {
+        width: 200px;
     }
 
-    @media (min-width: 640px) {
-        p { font-size: 12pt;  padding-left: 0rem; margin-left: 2rem; padding-bottom: 0.5rem; } 
-        h4 { font-size: 1.6rem; }
-        h1 { font-size: 50pt; }
-        li {height: 500;}
+    section {
+        width: 100%;
     }
 
-    .chopped li{
-        width: 100px;
+    body {
+        margin:0;
+    }
+     h1 { 
+    font-size: 35pt;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    }
+
+    h3 {
+        padding-left: 3rem;
+    }
+
+
+    h6 {
+        padding-left: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .section1 {
+        width: 100%;
+        padding-right: 1rem;
+        box-sizing: border-box;
+    }
+
+     h4 { 
+    font-size: 2rem; 
+    font-weight: 700;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+    h4.sources {
+        font-size: 1rem;
+    }
+     li {
+        height: 200;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+     .equipment li {
+        margin-top: 5rem;
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+
+    img {
+        width: 100%;
+
+    }
+
+}
+
+    @media (min-width: 700px) {
+        p { 
+            font-size: 14pt;  
+            max-width: 70%;
+            padding-left: 15rem; 
+            line-height: 1.8rem;
+            padding-bottom: 0.5rem; 
+            padding-top:1rem;
+        } 
+
+        html {
+            width: 100%;
+        }
+
+
+        
+        h4 { 
+            font-size: 1.6rem; 
+            padding-right: 3rem; 
+            padding-left: 15rem; 
+         
+        }
+
+        h3 {
+            padding-right: 4rem; 
+            padding-left: 15rem; 
+        }
+        h1 { 
+            font-size: 50pt; 
+            padding-left: 15rem;
+        }
+
+
+        a.about {
+            text-decoration: underline;
+            color: white;
+        }
+
+        h6 {
+            padding-right: 3rem; 
+            padding-left: 15rem; 
+            padding-bottom: 2rem;
+        }
+
+       .stars {
+            width: 200px;
+            aspect-ratio: 20 / 5;
+            padding-right: 17rem;
+        }
+
+        img {
+            width: 500px;
+            gap: 10px;
+        }
+
+        li {
+            padding-right: 2rem;
+            margin-left: 15rem;
+        }
+
+
+      .chopped {
+        width: 100%;
+        height: 450px;
+      }
 
     }
